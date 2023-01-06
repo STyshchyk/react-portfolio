@@ -1,0 +1,10 @@
+
+@for $i from 8 to 35{
+  .animate-letters_#{$i}{
+    opacity: 0;
+    animation: bounceIn 1s forwards ;
+    animation-fill-mode: forwards;
+    animation-delay: #{$i / 10}s;
+    min-width: 10px;
+  }
+}

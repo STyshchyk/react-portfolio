@@ -1,0 +1,130 @@
+
+.home-page {
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  .text-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+
+    max-height: 90%;
+    margin-left: 10%;
+
+    h1 {
+      color: white;
+      font-size: 53px;
+      font-family: "Coolvetica", sans-serif;
+      font-weight: 400;
+      animation: fadeInLeft 1s forwards;
+
+      &:before {
+        content: "<h1>";
+        font-family: "La Belle Aurore", sans-serif;
+        color: yellow;
+        font-size: 18px;
+        position: absolute;
+        top: 0;
+        margin-top: -40px;
+        left: 15px;
+        opacity: 0.6;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+
+      &:after {
+        content: "<h1>";
+        font-family: "La Belle Aurore", sans-serif;
+        color: yellow;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 40px;
+        opacity: 0.6;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+
+      img {
+        width: 40px;
+        margin-left: 20px;
+        opacity: 1;
+        height: auto;
+        animation: rotateIn 1s 0.5s linear both;
+
+      }
+    }
+
+    h2 {
+      height: 20px;
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8 backwards;
+      color: #8d8d8d;
+    }
+
+    .flat-button {
+      color: yellow;
+      border: 1px solid yellow;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      padding: 10px 18px;
+      margin-right: auto;
+      margin-top: 40px;
+      text-decoration: none;
+      animation: fadeIn 1s 1.8s backwards;
+      white-space: nowrap;
+      transition: all 1s ease;
+      &:hover{
+        background-color: yellow;
+        color: #333;
+      }
+    }
+
+  }
+
+
+}
+
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(30deg) !important;
+  }
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 1;
+    transform: rotateZ(30deg) !important;
+    z-index: 1;
+  }
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10;
+}
