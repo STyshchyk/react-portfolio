@@ -1,217 +1,701 @@
-.animate-letters_8 {
+.text-animate_1 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.1s;
+}
+
+.text-animate_2 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.2s;
+}
+
+.text-animate_3 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.3s;
+}
+
+.text-animate_4 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.4s;
+}
+
+.text-animate_5 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.5s;
+}
+
+.text-animate_6 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.6s;
+}
+
+.text-animate_7 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 0.7s;
+}
+
+.text-animate_8 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 0.8s;
-  min-width: 10px;
 }
 
-.animate-letters_9 {
+.text-animate_9 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 0.9s;
-  min-width: 10px;
 }
 
-.animate-letters_10 {
+.text-animate_10 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1s;
-  min-width: 10px;
 }
 
-.animate-letters_11 {
+.text-animate_11 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.1s;
-  min-width: 10px;
 }
 
-.animate-letters_12 {
+.text-animate_12 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.2s;
-  min-width: 10px;
 }
 
-.animate-letters_13 {
+.text-animate_13 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.3s;
-  min-width: 10px;
 }
 
-.animate-letters_14 {
+.text-animate_14 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.4s;
-  min-width: 10px;
 }
 
-.animate-letters_15 {
+.text-animate_15 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.5s;
-  min-width: 10px;
 }
 
-.animate-letters_16 {
+.text-animate_16 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.6s;
-  min-width: 10px;
 }
 
-.animate-letters_17 {
+.text-animate_17 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.7s;
-  min-width: 10px;
 }
 
-.animate-letters_18 {
+.text-animate_18 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.8s;
-  min-width: 10px;
 }
 
-.animate-letters_19 {
+.text-animate_19 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 1.9s;
-  min-width: 10px;
 }
 
-.animate-letters_20 {
+.text-animate_20 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2s;
-  min-width: 10px;
 }
 
-.animate-letters_21 {
+.text-animate_21 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.1s;
-  min-width: 10px;
 }
 
-.animate-letters_22 {
+.text-animate_22 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.2s;
-  min-width: 10px;
 }
 
-.animate-letters_23 {
+.text-animate_23 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.3s;
-  min-width: 10px;
 }
 
-.animate-letters_24 {
+.text-animate_24 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.4s;
-  min-width: 10px;
 }
 
-.animate-letters_25 {
+.text-animate_25 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.5s;
-  min-width: 10px;
 }
 
-.animate-letters_26 {
+.text-animate_26 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.6s;
-  min-width: 10px;
 }
 
-.animate-letters_27 {
+.text-animate_27 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.7s;
-  min-width: 10px;
 }
 
-.animate-letters_28 {
+.text-animate_28 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.8s;
-  min-width: 10px;
 }
 
-.animate-letters_29 {
+.text-animate_29 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 2.9s;
-  min-width: 10px;
 }
 
-.animate-letters_30 {
+.text-animate_30 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 3s;
-  min-width: 10px;
 }
 
-.animate-letters_31 {
+.text-animate_31 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 3.1s;
-  min-width: 10px;
 }
 
-.animate-letters_32 {
+.text-animate_32 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 3.2s;
-  min-width: 10px;
 }
 
-.animate-letters_33 {
+.text-animate_33 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+  min-width: 10px;
   animation-delay: 3.3s;
-  min-width: 10px;
 }
 
-.animate-letters_34 {
+.text-animate_34 {
+  display: inline-block;
   opacity: 0;
-  animation: bounceIn 1s forwards;
+  animation: bounceIn;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 3.4s;
   min-width: 10px;
+  animation-delay: 3.4s;
+}
+
+.text-animate_35 {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  animation-delay: 3.5s;
+}
+
+.text-animate-hover_1 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_1:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_2 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_2:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_3 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_3:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_4 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_4:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_5 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_5:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_6 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_6:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_7 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_7:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_8 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_8:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_9 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_9:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_10 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_10:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_11 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_11:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_12 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_12:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_13 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_13:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_14 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_14:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_15 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_15:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_16 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_16:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_17 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_17:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_18 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_18:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_19 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_19:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_20 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_20:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_21 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_21:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_22 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_22:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_23 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_23:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_24 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_24:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_25 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_25:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_26 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_26:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_27 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_27:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_28 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_28:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_29 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_29:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_30 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_30:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_31 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_31:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_32 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_32:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_33 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_33:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_34 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_34:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
+}
+
+.text-animate-hover_35 {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+}
+.text-animate-hover_35:hover {
+  animation: rubberBand 1s;
+  color: #ffd700;
 }
 
 /*# sourceMappingURL=AnimateLetter.Module.css.map */

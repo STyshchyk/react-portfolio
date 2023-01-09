@@ -1,10 +1,24 @@
-
-@for $i from 8 to 35{
-  .animate-letters_#{$i}{
+@for $i from 1 through 35 {
+  .text-animate_#{$i} {
+    display: inline-block;
     opacity: 0;
-    animation: bounceIn 1s forwards ;
+    animation: bounceIn;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-delay: #{$i / 10}s;
     min-width: 10px;
+    animation-delay: #{$i / 10}s;
+  }
+}
+
+@for $i from 1 through 35 {
+  .text-animate-hover_#{$i} {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+      animation: rubberBand 1s;
+      color: #ffd700;
+    }
   }
 }
