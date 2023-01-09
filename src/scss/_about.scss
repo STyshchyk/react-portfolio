@@ -1,0 +1,69 @@
+.about-page {
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  .text-zone {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    max-height: 90%;
+    margin-left: 10%;
+    h1 {
+      color: white;
+      font-size: 53px;
+      font-family: "Coolvetica", sans-serif;
+      font-weight: 400;
+      animation: fadeInLeft 1s forwards;
+      display: flex;
+      flex-direction: column;
+
+      &:before {
+        content: "<h1>";
+        font-family: "La Belle Aurore", sans-serif;
+        color: yellow;
+        font-size: 18px;
+        margin-top: -40px;
+        opacity: 0.6;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+
+      &:after {
+        content: "<h1>";
+        font-family: "La Belle Aurore", sans-serif;
+        color: yellow;
+        font-size: 18px;
+        margin-top: 18px;
+        opacity: 0.6;
+        animation: fadeIn 1s 1.8s backwards;
+      }
+
+      img {
+        width: 40px;
+        margin-left: 20px;
+        opacity: 1;
+        height: auto;
+        animation: rotateIn 1s 0.5s linear both;
+
+      }
+    }
+    p {
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 11px;
+      font-family: sans-serif;
+      animation: pulse 1s;
+      letter-spacing: 1px;
+      color: #8d8d8d;
+      &:nth-child(2){
+        animation-delay: 1.1s;
+      }
+      &:nth-child(3){
+        animation-delay: 1.2s;
+      }
+    }
+  }
+}

@@ -2,8 +2,7 @@ import './App.scss';
 import {Route, Routes} from "react-router-dom";
 import Layout from "./component/Layout";
 import Home from "./component/Home";
-import Logo from "./component/Logo";
-import React from "react";
+import About from "./component/About";
 
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
             <Routes>
                 <Route  path="/" element={<Layout/>}>
                     <Route index element={<Home/>}/>
-                    <Route path="/about" element={<Logo/>}/>
+                    <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<h1>Lorem</h1>}/>
                 </Route>
 
