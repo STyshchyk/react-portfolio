@@ -19,7 +19,7 @@
       font-size: 53px;
       font-family: "Coolvetica", sans-serif;
       font-weight: 400;
-      animation: fadeInLeft 1s forwards;
+      //animation: fadeInLeft 1s forwards;
 
       &:before {
         content: "<h1>";
@@ -62,7 +62,7 @@
       font-weight: 400;
       font-size: 11px;
       font-family: sans-serif;
-      letter-spacing: 3px;
+      letter-spacing: 1px;
       animation: fadeIn 1s 1.8 backwards;
       color: #8d8d8d;
     }
@@ -128,3 +128,5 @@
   stroke: #ffd700;
   stroke-width: 10;
 }
+
+
