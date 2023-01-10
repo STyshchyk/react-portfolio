@@ -71,6 +71,27 @@
         animation-delay: 1.2s;
       }
     }
+    .flat-button {
+      color: white;
+      max-width: fit-content;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      padding: 10px 24px;
+      margin-right: auto;
+      margin-top: 10px;
+      text-decoration: none;
+      white-space: nowrap;
+      border-radius: 4px;
+      border: 1px solid white;
+      cursor: pointer;
+
+      &:hover {
+        background-color: yellow;
+        color: #333;
+      }
+    }
+
   }
 
   .cube-zone {
@@ -297,3 +318,4 @@ section {
   width: 50%;
   height: 100%;
 }
+
