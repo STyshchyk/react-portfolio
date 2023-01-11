@@ -45,7 +45,7 @@ const About = () => {
                         <p>
                             To get more info about me, check out the CV
                         </p>
-                        <a href={cv} target="_blank" className="flat-button">
+                        <a href={cv} target="_blank" className="flat-button" rel="noreferrer">
                             Download cv
                         </a>
                     </div>
