@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/STyshchyk/react-gh-pages/static/css/main.6d83799e.css",
+    "main.js": "/STyshchyk/react-gh-pages/static/js/main.c92cbdb8.js",
+    "static/media/S.Tyshchyk's CV.pdf": "/STyshchyk/react-gh-pages/static/media/S.Tyshchyk's CV.b6b0a7a7af0cceeece01.pdf",
+    "static/media/helvetica-neu.ttf": "/STyshchyk/react-gh-pages/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/STyshchyk/react-gh-pages/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/logo-s.png": "/STyshchyk/react-gh-pages/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff": "/STyshchyk/react-gh-pages/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "index.html": "/STyshchyk/react-gh-pages/index.html",
+    "main.6d83799e.css.map": "/STyshchyk/react-gh-pages/static/css/main.6d83799e.css.map",
+    "main.c92cbdb8.js.map": "/STyshchyk/react-gh-pages/static/js/main.c92cbdb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d83799e.css",
+    "static/js/main.c92cbdb8.js"
+  ]
+}
