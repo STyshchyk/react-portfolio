@@ -1,22 +1,45 @@
 import './App.scss';
-import {Route, Routes} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 import Layout from "./component/Layout";
-import Home from "./component/Home";
 import About from "./component/About";
 import Contact from "./component/Contact";
+import Home from "./component/Home";
 
+const router = createHashRouter([
+        {
+            path: "/",
+            element: <Layout/>,
+            children: [
+                {
+                    path: "/",
+                    element: <Home/>
+                },
+                {
+                    path: "about",
+                    element: <About/>,
+
+                },
+                {
+                    path: "contact",
+                    element: <Contact/>,
+                }
+                ]
+        }
+    ]
+)
 
 function App() {
     return (
         <div className="App">
-            <Routes>
-                <Route  path="/" element={<Layout/>}>
-                    <Route index element={<Home/>}/>
-                    <Route path="/about" element={<About/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
-                </Route>
+            <RouterProvider router={router}/>
+            {/*<Routes>*/}
+            {/*    <Route path="/" element={<Layout/>}>*/}
+            {/*        <Route index element={<Home/>}/>*/}
+            {/*        <Route path="/about" element={<About/>}/>*/}
+            {/*        <Route path="/contact" element={<Contact/>}/>*/}
+            {/*    </Route>*/}
 
-            </Routes>
+            {/*</Routes>*/}
         </div>
     );
 }

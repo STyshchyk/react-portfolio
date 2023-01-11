@@ -1,6 +1,6 @@
 {
-  "homepage": "https://styshchyk.github.io/react-portfolio/",
   "name": "react-portfolio",
+  "homepage": "https://styshchyk.github.io/react-portfolio/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
