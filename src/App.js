@@ -31,16 +31,8 @@ const router = createHashRouter([
 function App() {
     return (
         <div className="App">
-            <RouterProvider router={router}/>
-            {/*<Routes>*/}
-            {/*    <Route path="/" element={<Layout/>}>*/}
-            {/*        <Route index element={<Home/>}/>*/}
-            {/*        <Route path="/about" element={<About/>}/>*/}
-            {/*        <Route path="/contact" element={<Contact/>}/>*/}
-            {/*    </Route>*/}
-
-            {/*</Routes>*/}
-        </div>
+            <RouterProvider base="/" router={router}/>
+         </div>
     );
 }
 
