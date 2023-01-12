@@ -47,3 +47,32 @@ textarea {
   color: white;
   opacity: 1; /* Firefox */
 }
+
+.error-container{
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+  }
+  a{
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
