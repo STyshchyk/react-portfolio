@@ -5,11 +5,9 @@ import {Outlet, useLocation} from "react-router-dom";
 const Layout = () => {
     const route = useLocation();
     const [className, setClassName] = useState("")
-
     useEffect(() => {
         if (route.pathname.search("portfolio") !== -1) setClassName("removed")
         else setClassName("")
-        console.log(route, route.pathname.search("portfolio"))
     }, [route])
     return (
         <div>
