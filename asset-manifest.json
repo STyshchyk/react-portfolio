@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.48e84ec3.css",
-    "main.js": "/react-portfolio/static/js/main.3f170fc3.js",
+    "main.css": "/react-portfolio/static/css/main.694afb46.css",
+    "main.js": "/react-portfolio/static/js/main.d0f74435.js",
+    "static/media/Screenshot_2.png": "/react-portfolio/static/media/Screenshot_2.9028d3de5a5a8f6a36bd.png",
+    "static/media/Screenshot_4.png": "/react-portfolio/static/media/Screenshot_4.282214697afb646c8f36.png",
+    "static/media/Screenshot_1.png": "/react-portfolio/static/media/Screenshot_1.2beb80df789ff7d8eae5.png",
     "static/media/S.Tyshchyk's CV.pdf": "/react-portfolio/static/media/S.Tyshchyk's CV.a16a301b0839253b1b45.pdf",
+    "static/media/Screenshot_3.png": "/react-portfolio/static/media/Screenshot_3.049efcffd747cc5fa499.png",
     "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff": "/react-portfolio/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
     "static/media/logo-s.png": "/react-portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff": "/react-portfolio/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "index.html": "/react-portfolio/index.html",
-    "main.48e84ec3.css.map": "/react-portfolio/static/css/main.48e84ec3.css.map",
-    "main.3f170fc3.js.map": "/react-portfolio/static/js/main.3f170fc3.js.map"
+    "main.694afb46.css.map": "/react-portfolio/static/css/main.694afb46.css.map",
+    "main.d0f74435.js.map": "/react-portfolio/static/js/main.d0f74435.js.map"
   },
   "entrypoints": [
-    "static/css/main.48e84ec3.css",
-    "static/js/main.3f170fc3.js"
+    "static/css/main.694afb46.css",
+    "static/js/main.d0f74435.js"
   ]
 }
