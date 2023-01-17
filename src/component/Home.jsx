@@ -33,7 +33,7 @@ const Home = () => {
                             <AnimateLetter letterClass={letterClass} stringArray={jobTitleArray} startIndex={10}/>
 
                         </h1>
-                        <h2>Frontend Developer</h2>
+                        <h2>Frontend Developer / Freelancer</h2>
                         <Link to="/contact" className="flat-button">CONTACT ME</Link>
 
                     </div>

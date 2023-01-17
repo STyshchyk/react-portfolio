@@ -5,6 +5,7 @@ import About from "./component/About";
 import Contact from "./component/Contact";
 import Home from "./component/Home";
 import Error from "./component/Error"
+import Portfolio from "./component/Portfolio";
 
 const router = createHashRouter([
         {
@@ -20,6 +21,10 @@ const router = createHashRouter([
                     path: "about",
                     element: <About/>,
 
+                },
+                {
+                    path: "portfolio",
+                    element: <Portfolio/>,
                 },
                 {
                     path: "contact",

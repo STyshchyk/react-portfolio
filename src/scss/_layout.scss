@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 40px;
+  width: 50px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -98,7 +98,11 @@
           content: "CONTACT";
         }
       }
-
+      &.portfolio-link {
+        &:after {
+          content: "PORTFOLIO";
+        }
+      }
       &.active {
         svg {
           color: yellow;
@@ -146,6 +150,7 @@
 .top-tags {
   bottom: auto;
   top: 35px;
+
 }
 
 .tags {
@@ -161,4 +166,8 @@
 
 .bottom-tag-html {
   margin-left: -20px;
+}
+.removed{
+  display: none;
+  animation: none;
 }
