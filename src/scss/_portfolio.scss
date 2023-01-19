@@ -7,12 +7,10 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.container{
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+
 .portfolio-page {
   width: 100%;
+  height: 100%;
   .card-wrapper {
     width: 100%;
     display: grid;

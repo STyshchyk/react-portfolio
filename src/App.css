@@ -900,13 +900,9 @@ section {
   backface-visibility: hidden;
 }
 
-.container {
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
 .portfolio-page {
   width: 100%;
+  height: 100%;
 }
 .portfolio-page .card-wrapper {
   width: 100%;
