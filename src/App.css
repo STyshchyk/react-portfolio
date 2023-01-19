@@ -714,9 +714,21 @@ section {
   flex-direction: row;
   width: 100%;
   justify-content: left;
-  padding: 0 5%;
   opacity: 1;
   animation: fadeIn 1.8s;
+}
+@media (max-width: 1200px) {
+  .contact-page {
+    align-content: flex-start;
+    gap: 40px;
+  }
+}
+@media (max-width: 780px) {
+  .contact-page {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+  }
 }
 .contact-page .text-zone {
   width: 50%;
@@ -725,6 +737,22 @@ section {
   align-content: center;
   height: 100%;
   max-height: 90%;
+}
+@media (max-width: 1200px) {
+  .contact-page .text-zone {
+    width: 100%;
+    height: fit-content;
+  }
+}
+@media (max-width: 780px) {
+  .contact-page .text-zone {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .contact-page .text-zone {
+    width: 100%;
+  }
 }
 .contact-page .text-zone h1 {
   color: white;
@@ -809,7 +837,26 @@ section {
   position: relative;
   width: 50%;
 }
+@media (max-width: 1200px) {
+  .contact-page .info-map {
+    width: 100%;
+    min-height: 500px;
+  }
+}
+@media (max-width: 780px) {
+  .contact-page .info-map {
+    width: 100%;
+    min-height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .contact-page .info-map {
+    width: 100%;
+    min-height: 350px;
+  }
+}
 .contact-page .info-map .contact-info {
+  display: none;
   position: absolute;
   top: 100px;
   left: 0;
@@ -822,12 +869,13 @@ section {
   background: rgba(8, 253, 216, 0.1);
   width: 100%;
   height: 100%;
+  z-index: 100;
+  display: flex;
+  position: relative;
 }
 .contact-page .info-map .map-wrapper .leaflet-container {
   height: 100%;
   width: 100%;
-  position: relative;
-  z-index: 1;
 }
 
 .classes, .portfolio-page .card-wrapper .flip-card .flip-card-inner .flip-card-back, .portfolio-page .card-wrapper .flip-card .flip-card-inner .flip-card-front {
