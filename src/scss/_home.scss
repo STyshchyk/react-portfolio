@@ -21,12 +21,17 @@
 
     h1 {
       color: white;
-      font-size: 3rem;
+      font-size: 53px;
       font-family: "Coolvetica", sans-serif;
       font-weight: 400;
       position: relative;
-      //animation: fadeInLeft 1s forwards;
-
+      animation: fadeInLeft 1s forwards;
+      @include for-size(md){
+        font-size: 45px;
+      }
+      @include for-size(sm){
+        font-size: 36px;
+      }
       &:before {
         content: "<h1>";
         font-family: "La Belle Aurore", sans-serif;

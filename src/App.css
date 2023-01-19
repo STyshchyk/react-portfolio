@@ -266,10 +266,21 @@
 }
 .home-page .text-zone h1 {
   color: white;
-  font-size: 3rem;
+  font-size: 53px;
   font-family: "Coolvetica", sans-serif;
   font-weight: 400;
   position: relative;
+  animation: fadeInLeft 1s forwards;
+}
+@media (max-width: 780px) {
+  .home-page .text-zone h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 480px) {
+  .home-page .text-zone h1 {
+    font-size: 36px;
+  }
 }
 .home-page .text-zone h1:before {
   content: "<h1>";
