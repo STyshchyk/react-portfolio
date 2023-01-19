@@ -3,7 +3,6 @@ import logo from "../assets/images/logo-s.png"
 import {Link} from "react-router-dom";
 import AnimateLetter from "./UI/AnimatedLetters/AnimateLetter";
 import Logo from "./Logo";
-import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -40,7 +39,6 @@ const Home = () => {
                     <Logo/>
                 </div>
             </div>
-            <Loader type="ball-pulse-sync" active/>
 
         </>
     );

@@ -2,7 +2,6 @@ import AnimateLetter from "./UI/AnimatedLetters/AnimateLetter";
 import React, {useEffect, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact} from "@fortawesome/free-brands-svg-icons";
-import Loader from "react-loaders";
 
 import cv from "../assets/S.Tyshchyk's CV.pdf"
 
@@ -82,7 +81,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Loader type="ball-pulse-sync" active/>
 
         </>
     );

@@ -1,1 +1,25 @@
 $bg-main: #022c43;
+
+
+@mixin for-size($size) {
+  @if $size == sm {
+    @media (max-width: 480px) {
+      @content;
+    }
+  } @else if $size == md {
+    @media (max-width: 780px) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+
+

@@ -1,5 +1,4 @@
 import React, {useEffect, useRef, useState} from 'react';
-import Loader from "react-loaders";
 import AnimateLetter from "./UI/AnimatedLetters/AnimateLetter";
 import emailjs from '@emailjs/browser'
 
@@ -8,7 +7,6 @@ import emailjs from '@emailjs/browser'
 import {Marker, Popup, MapContainer, TileLayer } from "react-leaflet";
 
 const Contact = () => {
-
     const position = [49.842957, 24.031111]
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef();
@@ -28,7 +26,7 @@ const Contact = () => {
             form.current,
             "Fdl8bi92-kdRyuUW2"
         ).then((result) => {
-            alert("Message sent")
+            alert("Message sent ")
         }, (error) => {
             alert("Error sending mail")
         });
@@ -84,7 +82,6 @@ const Contact = () => {
 
                 </div>
             </div>
-            <Loader type="ball-pulse-sync" active/>
 
         </>
     );

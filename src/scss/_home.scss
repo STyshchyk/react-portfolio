@@ -1,24 +1,30 @@
-
+@import "variables";
 .home-page {
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: left;
   align-content: center;
+  @include for-size(lg){
+    justify-content: center;
+    align-items: center;
+  }
   .text-zone {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     height: 100%;
-
+    white-space: nowrap;
     max-height: 90%;
-    margin-left: 10%;
+    position: relative;
 
     h1 {
       color: white;
-      font-size: 53px;
+      font-size: 3rem;
       font-family: "Coolvetica", sans-serif;
       font-weight: 400;
+      position: relative;
       //animation: fadeInLeft 1s forwards;
 
       &:before {
@@ -29,7 +35,7 @@
         position: absolute;
         top: 0;
         margin-top: -40px;
-        left: 15px;
+        left: 0;
         opacity: 0.6;
         animation: fadeIn 1s 1.8s backwards;
       }
@@ -80,6 +86,7 @@
       animation: fadeIn 1s 1.8s backwards;
       white-space: nowrap;
       transition: all 1s ease;
+      cursor: pointer;
       &:hover{
         background-color: yellow;
         color: #333;
@@ -96,26 +103,52 @@
   width: 400px;
   height: 609px;
   opacity: 1;
-  position: absolute;
-  top: 0;
-  right: 15%;
-  bottom: 0;
-  left: auto;
+
+  //top: 0;
+  //right: 15%;
+  //bottom: 0;
+  //left: auto;
+  display: flex;
   margin: auto;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
+  @include for-size(lg){
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  @include for-size(md){
+    //display: none;
+   // position: absolute;
+    //left: 50%;
+    //top: 50%;
+    //transform: translateY(50%) translateX(50%);
+    width: 200px;
+    height: 200px;
+  }
+  @include for-size(sm){
+    //display: none;
+    //position: absolute;
+    //left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
   }
 
+  //svg {
+  //  width: 100%;
+  //  height: auto;
+  //  bottom: 0;
+  //  transform: rotateZ(30deg) !important;
+  //}
+
   .solid-logo {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
+    //position: absolute;
+    //top: auto;
+    //right: auto;
+    //bottom: auto;
+    //left: 0;
     margin: auto;
     width: 100%;
     opacity: 1;
@@ -124,9 +157,9 @@
   }
 }
 
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10;
-}
+//.svg-container {
+//  stroke: #ffd700;
+//  stroke-width: 10;
+//}
 
 
