@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 20px;
+    font-size: 150%;
   }
 
   .text-zone {
@@ -24,11 +25,10 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 100%;
-    max-height: 90%;
+    //height: 100%;
+    //max-height: 90%;
     @include for-size(lg) {
       width: 100%;
-      height: fit-content;
     }
     @include for-size(md) {
       width: 100%;
@@ -46,6 +46,12 @@
       display: flex;
       flex-direction: column;
 
+      @include for-size(md) {
+        font-size: 45px;
+      }
+      @include for-size(sm) {
+        font-size: 36px;
+      }
       &:before {
         content: "<h1>";
         font-family: "La Belle Aurore", sans-serif;
@@ -136,17 +142,18 @@
 
     position: relative;
     width: 50%;
+    height: 300px;
     @include for-size(lg) {
       width: 100%;
-      min-height: 500px;
+      //min-height: 500px;
     }
     @include for-size(md) {
       width: 100%;
-      min-height: 400px;
+      //min-height: 400px;
     }
     @include for-size(sm) {
       width: 100%;
-      min-height: 350px;
+      //min-height: 350px;
     }
     //@include for-size(md) {
     //  width: 50%;

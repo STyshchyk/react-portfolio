@@ -167,7 +167,9 @@
   }
 
   nav.social {
-
+    @include for-size(sm) {
+      display: none;
+    }
     ul {
       display: flex;
       flex-direction: column;

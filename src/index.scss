@@ -1,3 +1,4 @@
+@import "./scss/variables";
 
 html {
   font-size: 75%;
@@ -33,4 +34,9 @@ body {
   align-items: center;
   justify-content: center;
   //overflow: hidden;
+  @include for-size(lg) {
+    justify-content: flex-start;
+    align-content: space-between;
+    padding-top: 130px;
+  }
 }
