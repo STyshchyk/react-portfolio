@@ -2,6 +2,7 @@ import img from "./assets/images/Screenshot_1.png"
 import img2 from "./assets/images/Screenshot_2.png"
 import img3 from "./assets/images/Screenshot_3.png"
 import img4 from "./assets/images/Screenshot_4.png"
+import img5 from "./assets/images/Screenshot_5.png"
 const portfolio = [
     {
         name: "Portfolio",
@@ -26,6 +27,12 @@ const portfolio = [
         link: "https://rolling-scopes-school.github.io/styshchyk-JSFE2022Q3/puzzle/",
         thumbnail: {img4},
         text: "Project that has been done during study in rsschool. Board game with ability to select board size. Game that saves with ability to continue game afterwards. Drap & drop puzzles to win"
+    },
+    {
+        name: "MUI shop",
+        link: "https://styshchyk.github.io/material-shop/",
+        thumbnail: {img5},
+        text: "MUI shop. Stack: React, MUI, React Hooks, REST API, Redux"
     }
 ]
 
